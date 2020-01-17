@@ -3,8 +3,8 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: hotpink;
-  background: lightgreen;
+  color: white;
+  background: blue;
 }
 
 a {
@@ -23,7 +23,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: #000;
+  color: lightgreen;
   font-family: "Lucida Sans";
 }
 
