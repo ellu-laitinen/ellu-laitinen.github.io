@@ -353,6 +353,7 @@ body.offcanvas-open .site-wrap {
 
 main,
 aside {
+  z-index: -1;
   width: 100%;
 }
 
@@ -1509,7 +1510,7 @@ main {
 }
 
 .sk-cube-grid {
-  z-index: 100000;
+  z-index: 10000000;
   width: 40px;
   height: 40px;
   margin: 100px auto;
@@ -1558,4 +1559,8 @@ main {
 .sk-cube-grid .sk-cube9 {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
+}
+
+.hide {
+  display: none;
 }
