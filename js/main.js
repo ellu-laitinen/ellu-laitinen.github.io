@@ -4,6 +4,10 @@
   // bootstrap dropdown hover
 
   $(document).ready(function() {
+    $("body").prepend('<div class="sk-cube-grid"></div>');
+    $(".site-wrap").addClass("hide");
+    $("mb-3").attr("data-aos", "fade-left");
+
     setTimeout(function() {
       $(".sk-cube-grid").addClass("hide");
       $(".site-wrap").removeClass("hide");
